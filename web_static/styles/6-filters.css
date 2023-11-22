@@ -49,9 +49,10 @@
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	padding: 0 0 30px 20px;
-	margin-top: 18px;
 	display: none;
-
+	margin-top: 18px;
+	position: relative;
+	z-index: 1;
 }
 .popover h2 {
 	font-size: 16px;
