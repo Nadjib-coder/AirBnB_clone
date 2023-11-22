@@ -1,8 +1,8 @@
 .filters {
-	background-color: white;
+	background-color: #fff;
 	height: 70px;
 	width: 100%;
-	border: 1px solid #DDDDDD;
+	border: 1px solid #ddd;
 	border-radius: 4px;
 	position: relative;
 }
@@ -10,7 +10,7 @@
 button {
 	font-size: 18px;
 	background-color: #FF5A5F;
-	color: #FFFFFF;
+	color: #fff;
 	height: 48px;
 	width: 20%;
 	border: none;
@@ -22,6 +22,6 @@ button {
 }
 
 button:hover {
-	opacity: 90%;
+	opacity: .9;
 }
 

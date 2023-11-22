@@ -1,8 +1,8 @@
 section.filters {
-	background-color: white;
+	background-color: #fff;
 	height: 70px;
 	width: 100%;
-	border: 1px solid #DDDDDD;
+	border: 1px solid #ddd;
 	border-radius: 4px;
 	position: relative;
 }
@@ -10,7 +10,7 @@ section.filters {
 section.filters button {
 	font-size: 18px;
 	background-color: #FF5A5F;
-	color: #FFFFFF;
+	color: #fff;
 	height: 48px;
 	width: 20%;
 	border: none;
@@ -34,7 +34,7 @@ section.filters button:hover {
 }
 
 .locations {
-	border-right: 1px solid #DDDDDD;
+	border-right: 1px solid #ddd;
 }
 
 .locations h3, .amenities h3 {
