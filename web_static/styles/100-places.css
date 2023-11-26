@@ -75,3 +75,44 @@ section.places h1 {
         background: url("../images/icon_bath.png") no-repeat center;
 }
 
+article .amenities {
+	margin-top: 40px;
+	width: 100%;
+}
+article .amenities h2 {
+	font-size: 16px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+article .amenities ul {
+	list-style: none;
+	margin: 20px 0;
+	padding: 0;
+}
+article .amenities ul li {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.tv {
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+	background: url("../images/icon_tv.png") no-repeat center / contain;
+}
+.wifi {
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+	background: url("../images/icon_wifi.png") no-repeat center / contain;
+}
+
+.pet_friendly {
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+	background: url("../images/icon_pets.png") no-repeat center / contain;
+}
+
+
