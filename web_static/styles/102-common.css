@@ -11,3 +11,11 @@ body {
 	margin: 30px auto;
 }
 
+/* Mobile */
+@media screen and (min-width: 480px) {
+	.contianer {
+		width: 100%;
+		margin: 30px auto;
+	}
+}
+

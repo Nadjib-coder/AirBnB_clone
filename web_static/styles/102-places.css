@@ -17,6 +17,21 @@
 	border-radius: 4px;
 }
 
+@media screen and (min-width: 480px) {
+        .places h1 {
+                text-align: center;
+        }
+        .places .places-container {
+                justify-content: center;
+                flex-direction: column;
+                margin-bottom: 60px;
+                align-items: center;
+        }
+        .places article {
+                width: 100%;
+        }
+}
+
 /* ******** article information ******** */
 
 .places article .header {
