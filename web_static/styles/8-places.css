@@ -5,14 +5,15 @@ section.places h1 {
 .places .places-container {
 	display: flex;
 	justify-content: space-around;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
+	margin-bottom: 60px;
 }
 
 .places-container article {
 	width: 390px;
 	padding: 20px;
-	margin: 30px;
 	border: 1px solid #FF5A5F;
+	margin: 30px;
 	border-radius: 4px;
 }
 
@@ -41,5 +42,36 @@ section.places h1 {
 	top: 7px;
 	right: 7px;
 	margin-top: -5px;
+}
+
+.places-container article .information {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	margin-top: 50px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+.guest_icon,
+.rooms_icon,
+.bathrooms_icon {
+	margin-top: 10px;
+	margin-bottom: 0;
+	width: 100px;
+	height: 38px;
+}
+
+.guest_icon {
+	background: url("../images/icon_group.png") no-repeat center;
+}
+
+.rooms_icon {
+        background: url("../images/icon_bed.png") no-repeat center;
+}
+
+.bathrooms_icon {
+        background: url("../images/icon_bath.png") no-repeat center;
 }
 
