@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>AirBnB Clone</title>
+	<link rel="icon" href="./images/icon.png" type="image/x-icon" >
+	<link rel="stylesheet" href="./styles/102-common.css" >
+	<link rel="stylesheet" href="./styles/102-header.css" >
+	<link rel="stylesheet" href="./styles/102-footer.css" >
+	<link rel="stylesheet" href="./styles/102-filters.css" >
+	<link rel="stylesheet" href="./styles/102-places.css" >
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo"></div>
+			<div class="resp-nav">
+				<input type="checkbox" id="check">
+				<label for="check">
+					<div class="nav-icon"></div>
+					<div class="nav-icon"></div>
+					<div class="nav-icon"></div>
+				</label>
+				<ul class="nav_bar_level1">
+					<li>
+						<label for="second_check"><span>States</span></label>
+						<input type="checkbox" name="second_check" id="second_check">
+						<ul class="states-nav">
+							<li><span>Arizona</span></li>
+							<li><span>California</span></li>
+						</ul>
+					</li>
+					<li>
+						<label for="third_check"><span>Amenities</span></label>
+						<input type="checkbox" name="second_check" id="third_check">
+						<ul class="amenities-nav">
+							<li><span>Internet</span></li>
+							<li><span>Tv</span></li>
+							<li><span>Wifi</span></li>
+							<li><span>Kitchen</span></li>
+							<li><span>Iron</span></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<section class="filters">
+			<div class="locations">
+				<h3>States</h3>
+				<h4>California, Arizona...</h4>
+				<ul class="popover">
+					<li>
+						<h2>Arizona:</h2>
+					</li>
+					<li>
+						<ul class="list">
+							<li>page</li>
+							<li>page2</li>
+						</ul>
+					</li>
+					<li>
+						<h2>California:</h2>
+					</li>
+                    			<li>
+						<ul class="list">
+                            				<li>San Francisco</li>
+                            				<li>Los Altos</li>
+                        			</ul>
+                    			</li>
+				</ul>
+			</div>
+			<div class="amenities">
+				<h3>Amenities</h3>
+				<h4>Internet, Kitchen...</h4>
+				<ul class="popover">
+					<li>Internet</li>
+					<li>TV</li>
+					<li>Kitchen</li>
+					<li>Iron</li>
+				</ul>
+			</div>
+			<button>Search</button>
+		</section>
+		<section class="places">
+			<h1>Places</h1>
+			<div class="places-container">
+				<article>
+					<div class="header">
+						<h2>My home</h2>
+						<div class="price_by_night">$80</div>
+					</div>
+					<div class="information">
+						<div class="max_guest">
+							<div class="guest_icon"></div>
+							<p>2 Guests</p>
+						</div>
+						<div class="number_rooms">
+							<div class="rooms_icon"></div>
+							<p>1 Badroom</p>
+						</div>
+						<div class="number_bathrooms">
+							<div class="bathrooms_icon"></div>
+							<p>1 Bathroom</p>
+						</div>
+					</div>
+					
+					<div class="user">
+						<p><b>Owner:</b> John Lennon</p>
+					</div>
+					<div class="description">
+						<p>
+						This is a lovely 1 bedroom and 1 bathroom apartment than can accomodate 2 people. It locates at center of Shangai and next to subway line 1, 1 stop to People Square, 2 stops to Bund, 3 stops to Jingan Temple.
+						</p>
+					</div>
+					<div class="amenities">
+						<h2>Amenities</h2>
+						<ul>
+							<li>
+								<div class="tv"></div>
+								<span>Tv</span>
+							</li>
+						 	<li>
+								<div class="wifi"></div>
+								<span>Wifi</span>
+							</li>
+							<li>
+								<div class="pet_friendly"></div>
+								<span>Pet friendly</span>
+							</li>
+						</ul>
+					</div>
+					<div class="reviews">
+						<h2>2 Reviews</h2>
+						<ul>
+							<li>
+								<h3>From Bob Dylan the 27th August 2022</h3>
+								<p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+							</li>
+							<li>
+								<h3>From Connor 4th August 2022</h3>
+								<p>Higly recommended!</p>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<div class="header">
+						<h2>Tiny house</h2>
+						<div class="price_by_night">$65</div>
+					</div>
+					<div class="information">
+						<div class="max_guest">
+							<div class="guest_icon"></div>
+							<p>4 Guests</p>
+						</div>
+						<div class="number_rooms">
+							<div class="rooms_icon"></div>
+							<p>2 Badroom</p>
+						</div>
+						<div class="number_bathrooms">
+							<div class="bathrooms_icon"></div>
+							<p>1 Bathroom</p>
+						</div>
+					</div>
+					<div class="user">
+						<p><b>Owner:</b> Adrienne</p>
+					</div>
+					<div class="description">
+						<p>
+						Our place is a private, affordable stand-alone guest house
+                        centrally located just minutes to French Quarters, downtown,
+                        The Fair Groundz(Jazz Fest) and City Park. The guest house is
+                        a quaint, 400 square ft. with a full bath, mini kitchen, & living
+                        room. The extra high cellings make the home feel more
+                        spacious. The sofa converts to a bed also. We have a hand
+                        made counter area that adds character to the room and a
+                        great porch/deck to relax on and have a glass of Merlot.
+
+						</p>
+					</div>
+					<div class="amenities">
+						<h2>Amenities</h2>
+						<ul>
+							<li>
+								<div class="pet_friendly"></div>
+								<span>Pet friendly</span>
+							</li>
+						</ul>
+					</div>
+					<div class="reviews">
+						<h2>1 Review</h2>
+						<ul>
+							<li>
+								<h3>From MAX the 27th January 2017</h3>
+								<p>Fantastic place. it was clean, Adrienne was great (even though we did not meet in person) and everything went super smooth. Location is also great if you like running and something a bit more quiet. I would suggest a car or take into consideration that you might have to Uber into the city from the location. Overall, would recommend the place anytime.</p>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<div class="header">
+						<h2>A suite</h2>
+						<div class="price_by_night">$190</div>
+					</div>
+					<div class="information">
+						<div class="max_guest">
+							<div class="guest_icon"></div>
+							<p>6 Guests</p>
+						</div>
+						<div class="number_rooms">
+							<div class="rooms_icon"></div>
+							<p>3 Badroom</p>
+						</div>
+						<div class="number_bathrooms">
+							<div class="bathrooms_icon"></div>
+							<p>2 Bathroom</p>
+						</div>
+					</div>
+					<div class="user">
+						<p><b>Owner:</b> Ayomide Suara</p>
+					</div>
+					<div class="description">
+						<p>
+						Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+						</p>
+					</div>
+					<div class="amenities">
+						<h2>Amenities</h2>
+						<ul>
+							<li>
+                						<div class="pet_friendly"></div>
+                						<span>Pet friendly</span>
+            						</li>
+              						<li>
+                						<div class="tv"></div>
+                						<span>Tv</span>
+            						</li>
+              						<li>
+                						<div class="wifi"></div>
+                						<span>Wifi</span>
+            						</li>
+            					</ul>
+          				</div>
+					<div class="reviews">
+						<h2>1 Review</h2>
+						<ul>
+							<li>
+								<h3>From Nadjib the 15th August, 2023</h3>
+                						<p>I love this place. Amazing!</p>
+							</li>
+						</ul>
+					</div>
+				</article>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<p>Best School</p>
+	</footer>
+</body>
+</html>
+

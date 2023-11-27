@@ -1,0 +1,86 @@
+header {
+	background-color: #fff;
+	height: 70%;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+
+.logo {
+	background: url("../images/logo.png") no-repeat center / contain;
+	padding-left: 20px;
+	height: 60px;
+	width: 120px;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .nav-icon {
+	width: 35px;
+	height: 5px;
+	background-color: black;
+	margin-bottom: 5px;
+	display: none;
+}
+
+nav #check {
+	display: none;
+}
+
+nav .resp-nav {
+	margin-right: 20px;
+}
+
+.nav_bar_level1 {
+	background-color: #ddd;
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	border-radius: 5px;
+	padding: 30px;
+	z-index: 5;
+	display: none;
+}
+
+
+.nav_bar_level1,
+.nav_bar_level1 ul {
+	list-style-type: none;
+}
+
+
+.nav_bar_level1 span {
+	font-size: 18px;
+}
+
+.nav_bar_level1 span:hover {
+	cursor: pointer;
+	color: #FF5A5F;
+}
+
+.nav_bar_level1 input {
+	display: none;
+}
+
+.states-nav,
+.amenities-nav {
+	display: none;
+}
+
+#second_check:checked ~ .states-nav {
+	display: block;
+}
+#third_check:checked ~ .amenities-nav {
+	display: block;
+}
+@media only screen and (max-width: 780px) {
+	header .nav-icon {
+		display: block;
+	}
+	nav #check:checked ~  .nav_bar_level1 {
+		display: block;
+	}
+}
