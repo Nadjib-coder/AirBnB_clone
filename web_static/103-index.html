@@ -13,9 +13,9 @@
 	<header>
 		<nav>
 			<div class="logo"></div>
-			<div class="resp-nav">
-				<input type="checkbox" id="check">
-				<label for="check">
+			<div class="resp-nav" aria-label="Navigate through site content">
+				<input type="checkbox" id="check" aria-hidden="true">
+				<label for="check" aria-label="responsive popup menu">
 					<span class="nav-icon"></span>
 					<span class="nav-icon"></span>
 					<span class="nav-icon"></span>
@@ -23,7 +23,7 @@
 				<ul class="nav_bar_level1">
 					<li>
 						<label for="second_check"><span>States</span></label>
-						<input type="checkbox" name="second_check" id="second_check">
+						<input type="checkbox" name="second_check" id="second_check" aria-hidden="true">
 						<ul class="states-nav">
 							<li><span>Arizona</span></li>
 							<li><span>California</span></li>
@@ -31,7 +31,7 @@
 					</li>
 					<li>
 						<label for="third_check"><span>Amenities</span></label>
-						<input type="checkbox" name="second_check" id="third_check">
+						<input type="checkbox" name="second_check" id="third_check" aria-hidden="true">
 						<ul class="amenities-nav">
 							<li><span>Internet</span></li>
 							<li><span>Tv</span></li>
@@ -255,7 +255,7 @@
 			</div>
 		</section>
 	</div>
-	<footer>
+	<footer aria-label="brand information">
 		<p>Best School</p>
 	</footer>
 </body>
